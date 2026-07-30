@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "unhurtdlc",
+  "version": "1.0",
+  "name": "Unhurt DLC",
+  "description": "Client for Fabric 1.16.5",
+  "authors": ["Ryzen"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.unhurtdlc.client.UnhurtDLC"]
+  },
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  }
+}
